@@ -12,7 +12,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://github.com/Zukauskas/03-happy-weekend
 
-Design: [UFO](./design/happyweekend.png
+Design: [happy weekend](./design/happyweekend.png)
 
 ## 🎯 Project features/goals
 
