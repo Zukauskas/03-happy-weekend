@@ -14,8 +14,13 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <style>
+
+        * {
+            outline: 1px solid red;
+        }
+
         header > img {
-            width: 100px;
+            height: 40px;
             float: left;
         }
 
@@ -28,6 +33,17 @@
 
         nav {
             float: right;
+        }
+
+        nav > a {
+            margin-left: 50px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #3f4371;
+        }
+
+        nav>a:first-child {
+            margin-left: 0px;
         }
 
         main {
@@ -52,7 +68,11 @@
     <header>
         <img src="./img/logo.png" alt="logo">
         <nav>
-            LINKS
+            <a href="#">Home</a>
+            <a href="#">Project</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
     <main>
