@@ -14,8 +14,13 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <style>
+
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
         header > img {
-            width: 100px;
+            height: 40px;
             float: left;
         }
 
@@ -26,8 +31,30 @@
             margin-left: calc(50% - 400px);
         }
 
-        nav {
+        header > nav {
             float: right;
+            margin-top: 3.8px;
+        }
+
+        nav > a {
+            display: inline-block;
+            padding: 0.3em 0.7em;
+            margin-left: 0.5em;
+            font-size: 18px;
+            line-height: 1em;
+            font-family: monospace;
+            text-decoration: none;
+            color: #3f4371;
+            border: 0.1em solid transparent;
+            border-radius: 0.2em;
+        }
+
+        nav>a:first-child {
+            margin-left: 0;
+        }
+
+        nav > a:hover {
+            border-color: #3f4371;
         }
 
         main {
@@ -52,7 +79,11 @@
     <header>
         <img src="./img/logo.png" alt="logo">
         <nav>
-            LINKS
+            <a style="border-color: #3F4371;" href="#">Home</a>
+            <a href="#">Project</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
     <main>
