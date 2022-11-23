@@ -15,8 +15,8 @@
     <meta name="theme-color" content="#ffffff">
     <style>
 
-        * {
-            outline: 1px solid red;
+        body {
+            font-family: monospace;
         }
 
         header > img {
@@ -29,21 +29,33 @@
             width: 800px;
             margin-top: 40px;
             margin-left: calc(50% - 400px);
+            background-color: yellow;
         }
 
-        nav {
+        header > nav {
             float: right;
+            margin-top: 3.8px;
+            background-color: aqua;
         }
 
         nav > a {
-            margin-left: 50px;
+            display: inline-block;
+            padding: 0.3em 0.7em;
+            margin-left: 0.5em;
             font-size: 18px;
+            line-height: 1em;
             text-decoration: none;
             color: #3f4371;
+            border: 0.1em solid transparent;
+            border-radius: 0.2em;
         }
 
         nav>a:first-child {
             margin-left: 0px;
+        }
+
+        nav > a:hover {
+            border-color: #3f4371;
         }
 
         main {
