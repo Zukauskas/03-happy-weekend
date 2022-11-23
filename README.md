@@ -21,6 +21,7 @@ Design: [happy weekend](./design/happyweekend.png)
 -   [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -   Font Awesome icons
 -   Fixed width content (desktop only)
+-   [CSS Selectors](https://www.w3schools.com/csSref/css_selectors.php)
 
 ## 🧰 Getting Started
 
