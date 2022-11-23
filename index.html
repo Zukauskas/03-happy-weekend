@@ -19,16 +19,16 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
 
-        header > img {
-            height: 40px;
-            float: left;
-        }
-
         header {
             display: inline-block;
             width: 800px;
             margin-top: 40px;
             margin-left: calc(50% - 400px);
+        }
+        
+        header > img {
+            height: 40px;
+            float: left;
         }
 
         header > nav {
@@ -47,6 +47,7 @@
             color: #3f4371;
             border: 0.1em solid transparent;
             border-radius: 0.2em;
+            transition: all 0.5s;
         }
 
         nav>a:first-child {
@@ -64,7 +65,7 @@
             margin-left: calc(50% - 400px);
         }
 
-        div {
+        main > div {
             width: 35%;
             float: left;
         }
@@ -72,6 +73,50 @@
         main > img {
             width: 60%;
             float: right;
+        }
+
+
+        h1 {
+            color: #3F4371;
+            font-size: 55px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        
+        main > div > a {
+            display: inline-block;
+            color: #fff;
+            padding: 0.5em 3em;
+            font-size: 20px;
+            background-color: #3F4371;
+            border-radius: 0.3em;
+            text-decoration: none;
+            text-transform: uppercase;
+            box-shadow: 0 0.5em 0.2em -0.45em #888;
+            transition: all 1s;
+        }
+
+        main > div > a:hover {
+            box-shadow: 0 0.6em 0.4em -0.5em #555;
+        }
+
+        h1 > span {
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 18px;
+            letter-spacing: 0.05em;
+            line-height: 1.3em;
+            word-spacing: 0.3em;
+        }
+
+        div > div {
+            margin-top: 50px;
+        }
+
+        div > div > a {
+
         }
     </style>
 </head>
@@ -87,7 +132,16 @@
         </nav>
     </header>
     <main>
-        <div>LEFT</div>
+        <div>
+            <h1>A happy <span>weekend</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quam harum dolorum minus odit blanditiis nihil dolores odio reiciendis nulla nobis suscipit amet, quod saepe natus hic. Nemo, nam rem.</p>
+            <a href="#">More</a>
+            <div>
+                <a href="#">Ig</a>
+                <a href="#">tw</a>
+                <a href="#">fb</a>
+            </div>
+        </div>
         <img src="./img/yoga.png" alt="Girl and Cat picture">
     </main>
 </body>
