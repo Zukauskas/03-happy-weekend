@@ -113,3 +113,11 @@ body {
     color: #fff;
     border-radius: 50%;
 }
+
+.socials > .icon:hover {
+    background-color: white;
+    color: #3F4371;
+    border: 0.05em solid #3F4371;
+    margin-right: 0.4em;
+
+}
