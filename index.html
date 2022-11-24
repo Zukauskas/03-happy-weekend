@@ -13,82 +13,32 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <style>
-
-        body {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-
-        header > img {
-            height: 40px;
-            float: left;
-        }
-
-        header {
-            display: inline-block;
-            width: 800px;
-            margin-top: 40px;
-            margin-left: calc(50% - 400px);
-        }
-
-        header > nav {
-            float: right;
-            margin-top: 3.8px;
-        }
-
-        nav > a {
-            display: inline-block;
-            padding: 0.3em 0.7em;
-            margin-left: 0.5em;
-            font-size: 18px;
-            line-height: 1em;
-            font-family: monospace;
-            text-decoration: none;
-            color: #3f4371;
-            border: 0.1em solid transparent;
-            border-radius: 0.2em;
-        }
-
-        nav>a:first-child {
-            margin-left: 0;
-        }
-
-        nav > a:hover {
-            border-color: #3f4371;
-        }
-
-        main {
-            display: inline-block;
-            width: 800px;
-            margin-top: 40px;
-            margin-left: calc(50% - 400px);
-        }
-
-        div {
-            width: 35%;
-            float: left;
-        }
-
-        main > img {
-            width: 60%;
-            float: right;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header>
-        <img src="./img/logo.png" alt="logo">
-        <nav>
-            <a style="border-color: #3F4371;" href="#">Home</a>
-            <a href="#">Project</a>
-            <a href="#">About</a>
-            <a href="#">Service</a>
-            <a href="#">Contact</a>
+    <header class="main-header">
+        <img class="logo" src="./img/logo.png" alt="logo">
+        <nav class="main-nav">
+            <a class="link active" href="#">Home</a>
+            <a class="link" href="#">Project</a>
+            <a class="link" href="#">About</a>
+            <a class="link" href="#">Service</a>
+            <a class="link" href="#">Contact</a>
         </nav>
     </header>
-    <main>
-        <div>LEFT</div>
-        <img src="./img/yoga.png" alt="Girl and Cat picture">
+    <main class="main-content">
+        <div class="left-column">
+            <h1 class="main-title">A happy <span>weekend</span></h1>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quam harum dolorum minus odit blanditiis nihil dolores odio reiciendis nulla nobis suscipit amet, quod saepe natus hic. Nemo, nam rem.</p>
+            <a class="btn" href="#">More</a>
+            <div class="socials">
+                <a class="icon fa fa-instagram" href="#"></a>
+                <a class="icon fa fa-twitter" href="#"></a>
+                <a class="icon fa fa-facebook" href="#"></a>
+            </div>
+        </div>
+        <img class="right-column" src="./img/yoga.png" alt="Girl and Cat picture">
     </main>
 </body>
 </html>

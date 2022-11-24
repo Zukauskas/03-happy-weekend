@@ -1,0 +1,128 @@
+:root {
+    --main-color: #3f4371;
+}
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-header {
+    display: inline-block;
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: calc(50% - 500px);
+}
+
+.logo {
+    height: 40px;
+    float: left;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 3.8px;
+}
+
+.main-nav > .link {
+    display: inline-block;
+    padding: 0.3em 0.7em;
+    margin-left: 0.5em;
+    font-size: 18px;
+    line-height: 1em;
+    font-family: monospace;
+    text-decoration: none;
+    color: var(--main-color);
+    border: 0.1em solid transparent;
+    border-radius: 0.2em;
+    transition: all 0.5s;
+}
+
+.main-nav > .link:first-child {
+    margin-left: 0;
+}
+
+.main-nav > .link:hover,
+.main-nav > .link.active {
+    border-color: var(--main-color);
+}
+
+.main-content {
+    display: inline-block;
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: calc(50% - 500px);
+}
+
+.left-column {
+    width: 35%;
+    float: left;
+}
+
+.right-column {
+    width: 60%;
+    float: right;
+}
+
+
+.main-title {
+    color: var(--main-color);
+    font-size: 55px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-title > span {
+    font-size: 45px;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    padding: 0.5em 3em;
+    font-size: 20px;
+    background-color: var(--main-color);
+    border-radius: 0.3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0 0.5em 0.2em -0.45em #888;
+    transition: all 1s;
+}
+
+.btn:hover {
+    box-shadow: 0 0.6em 0.4em -0.5em #555;
+}
+
+.description {
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 1.3em;
+    word-spacing: 0.3em;
+}
+
+.socials {
+    margin-top: 50px;
+}
+
+.socials > .icon {
+    width: 2em;
+    height: 2em;
+    float:left;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 2em;
+    text-align: center;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 50%;
+}
+
+.socials > .icon:hover {
+    background-color: white;
+    color: var(--main-color);
+    border: 0.05em solid var(--main-color);
+    margin-right: 0.4em;
+
+}
