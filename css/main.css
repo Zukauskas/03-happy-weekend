@@ -51,20 +51,23 @@ body * {
 }
 
 .main-content {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 1000px;
     margin-top: 40px;
     margin-left: calc(50% - 500px);
 }
 
 .left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     width: 35%;
-    float: left;
 }
 
 .right-column {
     width: 60%;
-    float: right;
 }
 
 
@@ -80,7 +83,7 @@ body * {
 }
 
 .btn {
-    display: inline-block;
+    width: fit-content;
     color: #fff;
     padding: 0.5em 3em;
     font-size: 20px;
@@ -105,12 +108,12 @@ body * {
 
 .socials {
     margin-top: 50px;
+    display: flex;
 }
 
 .socials > .icon {
     width: 2em;
     height: 2em;
-    float:left;
     margin-right: 0.5em;
     margin-bottom: 0.5em;
     text-decoration: none;
